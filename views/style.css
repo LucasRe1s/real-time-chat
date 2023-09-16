@@ -1,0 +1,32 @@
+
+    <style>
+        /* Estilo para o container dos elementos */
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Estilo para os inputs */
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Estilo para o botão */
+        input[type="button"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Estilo para o campo de texto */
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 10px;
+        }
+    </style>
