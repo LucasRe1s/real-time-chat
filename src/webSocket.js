@@ -1,7 +1,7 @@
 const {io} = require("./http");
 
 io.on("connection", ( socket)=> {
-    console.log("")
+    console.log("", socket.id)
 
     socket.on("disconnect", () => {
         console.log("x desconectou " + socket.id);

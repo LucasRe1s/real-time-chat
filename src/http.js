@@ -10,7 +10,9 @@ const app = express()
 const httpServer = http.createServer(app);
 const io = new Server(httpServer);
 
-app.set("view engine", "ejs")
+app.set("view engine", "ejs");
+
+app.use(express.static(__dirname + '/public'));
 app.use(router);
 
 
